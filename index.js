@@ -1,8 +1,8 @@
 const through2 = require('through2');
-const gutil = require('gulp-util');
+const log = require('fancy-log');
 
 function defaultErrorHandler(error) {
-  gutil.log(`Unhandled error:\n ${error.toString()}`)
+  log(`Unhandled error:\n ${error.toString()}`)
   if (this && this.emit) {
     this.emit('end');
   }

@@ -19,7 +19,7 @@
   "author": "mhmad.hamster@gmail.com",
   "license": "MIT",
   "dependencies": {
-    "gutil": "1.6.4",
+    "fancy-log": "1.3.2",
     "through2": "2.0.3"
   }
 }
