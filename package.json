@@ -1,6 +1,6 @@
 {
   "name": "gulp-error-handle",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Allows you to set one error handler for multiple pipes",
   "main": "index.js",
   "keywords": [
